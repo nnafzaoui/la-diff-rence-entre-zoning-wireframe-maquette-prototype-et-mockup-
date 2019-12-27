@@ -1,0 +1,213 @@
+ body{
+                background-image: url(img/safik.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                font-family: 'Montserrat',sans-serif;
+                height: 100%;
+                
+                }
+                   .div1{
+                    background-color: black;
+                    width: 100%;
+                    height: 700px;
+                    opacity: 0.5;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                
+                }
+             .div1 h1{
+                    color: white;
+                    font-size: 80px;
+                   
+                }
+                .div1 h2{
+                    font-size: 40px;
+                       
+                }
+                .div1 p{
+                    font-size: 30px;
+                  
+                }
+            .ruf {
+                    margin-top: 5%;
+                    color: #038DFE;
+                    font-size: 100px;
+                    font-family: 'Montserrat';
+                    font-weight: 800;
+                    display: flex;
+                    justify-content: center;
+                    align-self: center
+            }
+            .div3{
+                    margin-top: 5%;
+                    display: flex;
+                    justify-content: center;
+                    background-color: black;
+                    opacity: 0.7;
+                    width: 100%;
+                    height: 700px;
+                    flex-direction: column;
+                }
+        
+            .leftcorner{
+                    width: 115px;
+                    height: 115px;
+                    margin-right: auto;
+                   
+                }
+            
+            .div3 p{
+                    color: white;
+                    font-family: 'Montserrat';
+                    font-size: 20px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    display: flex;
+                    height: 80%;
+                    justify-content: center;
+                    align-items: center;
+                  
+            }
+            .rightcorner {
+                    width: 115px;
+                    height: 115px;
+                    margin-left: auto;
+                    margin-top: auto;
+                }
+            .ycpic{
+                    width: 230px;
+                    height: 230px;
+                    display: flex;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 2%;
+                }
+            .div4{
+                margin-top: 10%;
+                display: flex;
+                flex-direction: row;
+                height: 700px;
+            }
+            .div4 img{
+                    width: 50%;
+                    height: 100%;
+            }
+            .whitep{
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    font-family: 'Montserrat',sans-serif;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+            .WhiteBackground{
+                    background-color: black;
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    opacity: 0.5;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            .pic2{
+                height: 900px;
+            }
+            .pic2 img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .blackbackground{
+                    background-color: black;
+                    width: 100%;
+                    height: 300px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .leftcorn{
+                    width: 80px;
+                    height: 80px;
+                    margin-right: auto;
+            }
+                .rightcorn {
+                    width: 80px;
+                    height: 80px;
+                    margin-left: auto;
+                    margin-top: auto;
+            }
+            .blackbackground h2{
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    font-family: 'Montserrat', 'Regular4';
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+                .blackbackground h1{
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+            }
+            .middleyc{
+                    height: 90px;
+                    width: 300px;
+                    
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            
+            
+            @media screen and (max-width:800px) {
+                .div1{
+                    text-align: center;
+                }
+                   
+                   .div1 h1{
+                    color: white;
+                    font-size: 60px;
+                }
+                .div1 h2{
+                    font-size: 40px;
+                }
+                .div1 p{
+                    font-size: 20px;
+                }
+                .ruf{
+                    font-size: 40px;
+                }
+                .div3 p{
+                    font-size: 15px;
+                }
+                .div4{
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
+                }
+                .whitep{
+                    font-size: 10px;
+                    font-weight: 700;
+                    justify-content: center;
+                    width: auto;
+
+                }
+                .div4 img{
+                    width: 100%;
+                    height: 400px;
+                }
+                
+                .pic2{
+                    height: auto;
+                }
+                .blackbackground{
+                    margin-top: -0.7%;
+                }
+                .WhiteBackground{
+                    height: 400px;
+                    width: 100%;
+                }
+            }

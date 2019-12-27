@@ -1,0 +1,245 @@
+.header{
+    height: 10%;
+    background:black;
+    color: #fff;
+    position: fixed; 
+    z-index: 1; 
+    width: 100%;
+   
+   }
+   .header a:hover{
+                 
+   color: #41B9FE;
+       
+   }
+   
+   .header img{
+   height: 50%;
+   margin-top: 10px;
+   margin-left: 50px;
+   }
+   .menu{
+    display: flex;
+    flex-direction : row;
+    margin-left: 300px;
+    margin-top: -10px;
+    }
+           
+   .menu a{
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 0 15px;
+   transition: 0.4s;
+                   }
+   .show-menu-btn,.hide-menu-btn{
+     transition: 0.4s;
+     font-size: 30px;
+     cursor: pointer;
+     display: none;
+   }
+   .show-menu-btn{
+     float: right;
+   }
+   .show-menu-btn i{
+     line-height: 100px;
+   }
+   .menu a:hover,
+   .show-menu-btn:hover,
+   .hide-menu-btn:hover{
+     color: #3498db;
+   }
+   
+   #chk{
+     position: absolute;
+     visibility: hidden;
+     z-index: -1111;
+   }
+.div1{
+    background-color: black;
+    width: 100%px;
+    height: 500px;
+    opacity: 0.5;
+    font-family: 'Montserrat';
+    color: white;
+}
+.div1 h1{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-size: 80px;
+}
+.div1 h2{
+    position: relative;
+    top: 100px;
+    left: -100px;
+    font-size: 40px;
+}
+.div1 p{
+    position: relative;
+    left: 200px;
+    top: 100px;
+    font-size: 30px;
+}
+.ruf {
+    color: #038DFE;
+    position: relative;
+    left: 750px;
+    top: 0px;
+    font-size: 100px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+.div3{
+    position: relative;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 700px;
+}
+.ycpic{
+    position: relative;
+    left: 550px;
+    width: 230px;
+    height: 230px;
+    top: 30px;
+}
+.leftcorner{
+    width: 115px;
+    height: 115px;
+    position: relative;
+    left:-810px;
+    top: -100px;
+}
+.rightcorner {
+    width: 115px;
+    height: 115px;
+    position: relative;
+    top: 430px;
+    right: -510px;
+}
+.div3 p{
+    color: white;
+    font-family: 'Montserrat';
+    position: relative;
+    left: 40px;
+    top: 90px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.div4 img{
+    position: relative;
+    top: 150px;
+    width: 860px;
+    height: 750px;
+    left: 736px
+}
+.div5{
+    
+    position: relative;
+    left: 100px;
+    top: -1200px;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.WhiteBackground{
+    background-color: white;
+    width: 1048px;
+    height: 750px;
+   position: relative;
+   top: -604px;
+}
+.pic2 img{
+    position:  relative;
+    left: -300px;
+    top: -1000px;
+    width: 100%;
+    height: 900px;
+}
+.blackbackground{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -1010px;
+}
+.middleyc{
+    position: relative;
+    left: 500px;
+    height: 90px;
+    width: 300px;
+}
+.leftcorn{
+    position: relative;
+    left: -890px;
+    width: 80px;
+    height: 80px;
+    top: -5px;
+}
+.rightcorn {
+    position: relative;
+    right: -515px;
+    top: 175px;
+    width: 80px;
+    height: 80px;
+}
+.blackbackground h2{
+    position: relative;
+    left:555px;
+    top: 40px;
+    font-family: 'Montserrat', 'Regular4';
+    font-weight: 400;
+}
+.blackbackground h1{
+    position: relative;
+    top: 30px;
+    left: 840px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+footer{
+    margin-top: -1080px;
+    height: 150px;
+}
+.RS{
+        text-align: right;
+        color: gray;
+        position:relative;
+        top: -80px;
+        right: 30px;
+        
+}
+
+
+.RS p{
+    position: relative;
+    top: -20px;
+}
+footer{
+    font-family: 'Montserrat',sans-serif;
+}
+.contacter a{
+    position: relative;
+    top: 30px;
+}
+.contacter p{
+    position: relative;
+    left: 10px;
+}
+.RS p{
+    position: relative;
+    top: 5px;         
+}
+.iconsfRS  i{
+    padding-left: 2em;
+    color: white;
+}
+.links a{
+color: #FFFFFF;
+text-decoration: none !important;
+}
